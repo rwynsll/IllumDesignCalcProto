@@ -1,0 +1,10 @@
+C:\Users\zEROSeven\source\repos\calc\calc\bin\Debug\calc.exe.config
+C:\Users\zEROSeven\source\repos\calc\calc\bin\Debug\calc.exe
+C:\Users\zEROSeven\source\repos\calc\calc\bin\Debug\calc.pdb
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.csprojResolveAssemblyReference.cache
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.Form1.resources
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.Properties.Resources.resources
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.csproj.GenerateResource.Cache
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.csproj.CoreCompileInputs.cache
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.exe
+C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.pdb
