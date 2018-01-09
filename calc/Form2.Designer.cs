@@ -35,7 +35,7 @@
             this.luminLamps = new System.Windows.Forms.NumericUpDown();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.luminOutput = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.luminTF = new System.Windows.Forms.NumericUpDown();
@@ -46,83 +46,83 @@
             this.label22 = new System.Windows.Forms.Label();
             this.luminLumens = new System.Windows.Forms.NumericUpDown();
             this.twodPanel = new System.Windows.Forms.Panel();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.twodWidth = new System.Windows.Forms.NumericUpDown();
+            this.twodAngle = new System.Windows.Forms.NumericUpDown();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.twodOutput = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.twodLength = new System.Windows.Forms.NumericUpDown();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.twodLumens = new System.Windows.Forms.NumericUpDown();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.label32 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.threedWidth = new System.Windows.Forms.NumericUpDown();
+            this.threedHeight = new System.Windows.Forms.NumericUpDown();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.threedOutput = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.threedLength = new System.Windows.Forms.NumericUpDown();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.threedLumens = new System.Windows.Forms.NumericUpDown();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPageLumin = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.illumPanel = new System.Windows.Forms.Panel();
-            this.illumLumens = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.illumArea = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.illumCU = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.illumMF = new System.Windows.Forms.NumericUpDown();
-            this.label7 = new System.Windows.Forms.Label();
-            this.illumInitial = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.tabPageIllum = new System.Windows.Forms.TabPage();
+            this.illumPanel = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.luminMaintained = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.illumInitial = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.illumMF = new System.Windows.Forms.NumericUpDown();
+            this.label8 = new System.Windows.Forms.Label();
+            this.illumCU = new System.Windows.Forms.NumericUpDown();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.illumArea = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.illumLumens = new System.Windows.Forms.NumericUpDown();
+            this.tabPageLumin = new System.Windows.Forms.TabPage();
             this.tabPage2D = new System.Windows.Forms.TabPage();
             this.tabPage3D = new System.Windows.Forms.TabPage();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.luminPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.luminLamps)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminTF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminArea)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminLumens)).BeginInit();
             this.twodPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.twodWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.twodAngle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.twodLength)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.twodLumens)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.threedWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.threedHeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.threedLength)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.threedLumens)).BeginInit();
             this.tabControl1.SuspendLayout();
-            this.tabPageLumin.SuspendLayout();
-            this.illumPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.illumLumens)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.illumArea)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.illumCU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.illumMF)).BeginInit();
             this.tabPageIllum.SuspendLayout();
+            this.illumPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.illumMF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.illumCU)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.illumArea)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.illumLumens)).BeginInit();
+            this.tabPageLumin.SuspendLayout();
             this.tabPage2D.SuspendLayout();
             this.tabPage3D.SuspendLayout();
             this.SuspendLayout();
@@ -166,7 +166,7 @@
             this.luminPanel.Controls.Add(this.luminLamps);
             this.luminPanel.Controls.Add(this.label15);
             this.luminPanel.Controls.Add(this.label16);
-            this.luminPanel.Controls.Add(this.textBox3);
+            this.luminPanel.Controls.Add(this.luminOutput);
             this.luminPanel.Controls.Add(this.label18);
             this.luminPanel.Controls.Add(this.label17);
             this.luminPanel.Controls.Add(this.luminTF);
@@ -211,13 +211,13 @@
             this.label16.TabIndex = 12;
             this.label16.Text = "Luminance :";
             // 
-            // textBox3
+            // luminOutput
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(108, 169);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(76, 20);
-            this.textBox3.TabIndex = 11;
+            this.luminOutput.Enabled = false;
+            this.luminOutput.Location = new System.Drawing.Point(108, 169);
+            this.luminOutput.Name = "luminOutput";
+            this.luminOutput.Size = new System.Drawing.Size(76, 20);
+            this.luminOutput.TabIndex = 11;
             // 
             // label18
             // 
@@ -327,15 +327,15 @@
             this.twodPanel.Controls.Add(this.label32);
             this.twodPanel.Controls.Add(this.label24);
             this.twodPanel.Controls.Add(this.label31);
-            this.twodPanel.Controls.Add(this.numericUpDown2);
-            this.twodPanel.Controls.Add(this.numericUpDown1);
+            this.twodPanel.Controls.Add(this.twodWidth);
+            this.twodPanel.Controls.Add(this.twodAngle);
             this.twodPanel.Controls.Add(this.label13);
             this.twodPanel.Controls.Add(this.label14);
-            this.twodPanel.Controls.Add(this.textBox2);
+            this.twodPanel.Controls.Add(this.twodOutput);
             this.twodPanel.Controls.Add(this.label25);
             this.twodPanel.Controls.Add(this.label26);
             this.twodPanel.Controls.Add(this.label27);
-            this.twodPanel.Controls.Add(this.numericUpDown3);
+            this.twodPanel.Controls.Add(this.twodLength);
             this.twodPanel.Controls.Add(this.label28);
             this.twodPanel.Controls.Add(this.label29);
             this.twodPanel.Controls.Add(this.twodLumens);
@@ -344,17 +344,56 @@
             this.twodPanel.Size = new System.Drawing.Size(286, 292);
             this.twodPanel.TabIndex = 18;
             // 
-            // numericUpDown1
+            // label32
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(106, 40);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(188, 43);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(45, 13);
+            this.label32.TabIndex = 21;
+            this.label32.Text = "degrees";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(188, 94);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(38, 13);
+            this.label24.TabIndex = 20;
+            this.label24.Text = "meters";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(6, 94);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(63, 13);
+            this.label31.TabIndex = 19;
+            this.label31.Text = "Width (2Y) :";
+            // 
+            // twodWidth
+            // 
+            this.twodWidth.Location = new System.Drawing.Point(106, 92);
+            this.twodWidth.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown1.TabIndex = 17;
+            this.twodWidth.Name = "twodWidth";
+            this.twodWidth.Size = new System.Drawing.Size(76, 20);
+            this.twodWidth.TabIndex = 18;
+            // 
+            // twodAngle
+            // 
+            this.twodAngle.Location = new System.Drawing.Point(106, 40);
+            this.twodAngle.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.twodAngle.Name = "twodAngle";
+            this.twodAngle.Size = new System.Drawing.Size(76, 20);
+            this.twodAngle.TabIndex = 17;
             // 
             // label13
             // 
@@ -374,13 +413,13 @@
             this.label14.TabIndex = 12;
             this.label14.Text = "Illumination :";
             // 
-            // textBox2
+            // twodOutput
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(106, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(76, 20);
-            this.textBox2.TabIndex = 11;
+            this.twodOutput.Enabled = false;
+            this.twodOutput.Location = new System.Drawing.Point(106, 169);
+            this.twodOutput.Name = "twodOutput";
+            this.twodOutput.Size = new System.Drawing.Size(76, 20);
+            this.twodOutput.TabIndex = 11;
             // 
             // label25
             // 
@@ -410,17 +449,17 @@
             this.label27.TabIndex = 5;
             this.label27.Text = "Length (2X) :";
             // 
-            // numericUpDown3
+            // twodLength
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(106, 66);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
+            this.twodLength.Location = new System.Drawing.Point(106, 66);
+            this.twodLength.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown3.TabIndex = 4;
+            this.twodLength.Name = "twodLength";
+            this.twodLength.Size = new System.Drawing.Size(76, 20);
+            this.twodLength.TabIndex = 4;
             // 
             // label28
             // 
@@ -457,45 +496,6 @@
             this.twodLumens.Size = new System.Drawing.Size(76, 20);
             this.twodLumens.TabIndex = 1;
             // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(188, 94);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(38, 13);
-            this.label24.TabIndex = 20;
-            this.label24.Text = "meters";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(6, 94);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(63, 13);
-            this.label31.TabIndex = 19;
-            this.label31.Text = "Width (2Y) :";
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(106, 92);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown2.TabIndex = 18;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(188, 43);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(45, 13);
-            this.label32.TabIndex = 21;
-            this.label32.Text = "degrees";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -503,15 +503,15 @@
             this.panel1.Controls.Add(this.label33);
             this.panel1.Controls.Add(this.label34);
             this.panel1.Controls.Add(this.label35);
-            this.panel1.Controls.Add(this.numericUpDown4);
-            this.panel1.Controls.Add(this.numericUpDown5);
+            this.panel1.Controls.Add(this.threedWidth);
+            this.panel1.Controls.Add(this.threedHeight);
             this.panel1.Controls.Add(this.label36);
             this.panel1.Controls.Add(this.label37);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.threedOutput);
             this.panel1.Controls.Add(this.label38);
             this.panel1.Controls.Add(this.label39);
             this.panel1.Controls.Add(this.label40);
-            this.panel1.Controls.Add(this.numericUpDown6);
+            this.panel1.Controls.Add(this.threedLength);
             this.panel1.Controls.Add(this.label41);
             this.panel1.Controls.Add(this.label42);
             this.panel1.Controls.Add(this.threedLumens);
@@ -547,29 +547,29 @@
             this.label35.TabIndex = 19;
             this.label35.Text = "Width (2Y) :";
             // 
-            // numericUpDown4
+            // threedWidth
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(106, 66);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
+            this.threedWidth.Location = new System.Drawing.Point(106, 66);
+            this.threedWidth.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown4.TabIndex = 18;
+            this.threedWidth.Name = "threedWidth";
+            this.threedWidth.Size = new System.Drawing.Size(76, 20);
+            this.threedWidth.TabIndex = 18;
             // 
-            // numericUpDown5
+            // threedHeight
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(106, 92);
-            this.numericUpDown5.Maximum = new decimal(new int[] {
+            this.threedHeight.Location = new System.Drawing.Point(106, 92);
+            this.threedHeight.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown5.TabIndex = 17;
+            this.threedHeight.Name = "threedHeight";
+            this.threedHeight.Size = new System.Drawing.Size(76, 20);
+            this.threedHeight.TabIndex = 17;
             // 
             // label36
             // 
@@ -589,13 +589,13 @@
             this.label37.TabIndex = 12;
             this.label37.Text = "Illumination :";
             // 
-            // textBox4
+            // threedOutput
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(106, 169);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(76, 20);
-            this.textBox4.TabIndex = 11;
+            this.threedOutput.Enabled = false;
+            this.threedOutput.Location = new System.Drawing.Point(106, 169);
+            this.threedOutput.Name = "threedOutput";
+            this.threedOutput.Size = new System.Drawing.Size(76, 20);
+            this.threedOutput.TabIndex = 11;
             // 
             // label38
             // 
@@ -624,17 +624,17 @@
             this.label40.TabIndex = 5;
             this.label40.Text = "Length (2X) :";
             // 
-            // numericUpDown6
+            // threedLength
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(106, 40);
-            this.numericUpDown6.Maximum = new decimal(new int[] {
+            this.threedLength.Location = new System.Drawing.Point(106, 40);
+            this.threedLength.Maximum = new decimal(new int[] {
             10000,
             0,
             0,
             0});
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown6.TabIndex = 4;
+            this.threedLength.Name = "threedLength";
+            this.threedLength.Size = new System.Drawing.Size(76, 20);
+            this.threedLength.TabIndex = 4;
             // 
             // label41
             // 
@@ -683,24 +683,16 @@
             this.tabControl1.Size = new System.Drawing.Size(346, 343);
             this.tabControl1.TabIndex = 23;
             // 
-            // tabPageLumin
+            // tabPageIllum
             // 
-            this.tabPageLumin.Controls.Add(this.luminPanel);
-            this.tabPageLumin.Location = new System.Drawing.Point(4, 22);
-            this.tabPageLumin.Name = "tabPageLumin";
-            this.tabPageLumin.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageLumin.Size = new System.Drawing.Size(338, 317);
-            this.tabPageLumin.TabIndex = 1;
-            this.tabPageLumin.Text = "Luminance";
-            this.tabPageLumin.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Location = new System.Drawing.Point(4, 39);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(338, 10);
-            this.panel2.TabIndex = 24;
+            this.tabPageIllum.Controls.Add(this.illumPanel);
+            this.tabPageIllum.Location = new System.Drawing.Point(4, 22);
+            this.tabPageIllum.Name = "tabPageIllum";
+            this.tabPageIllum.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageIllum.Size = new System.Drawing.Size(338, 317);
+            this.tabPageIllum.TabIndex = 0;
+            this.tabPageIllum.Text = "Illumination";
+            this.tabPageIllum.UseVisualStyleBackColor = true;
             // 
             // illumPanel
             // 
@@ -708,7 +700,7 @@
             this.illumPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.illumPanel.Controls.Add(this.label11);
             this.illumPanel.Controls.Add(this.label12);
-            this.illumPanel.Controls.Add(this.textBox1);
+            this.illumPanel.Controls.Add(this.luminMaintained);
             this.illumPanel.Controls.Add(this.label10);
             this.illumPanel.Controls.Add(this.label9);
             this.illumPanel.Controls.Add(this.illumInitial);
@@ -728,105 +720,68 @@
             this.illumPanel.TabIndex = 4;
             this.illumPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.illumPanel_Paint);
             // 
-            // illumLumens
+            // label11
             // 
-            this.illumLumens.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.illumLumens.Location = new System.Drawing.Point(109, 14);
-            this.illumLumens.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.illumLumens.Name = "illumLumens";
-            this.illumLumens.Size = new System.Drawing.Size(76, 20);
-            this.illumLumens.TabIndex = 1;
-            this.illumLumens.ValueChanged += new System.EventHandler(this.illumLumens_ValueChanged);
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(196, 209);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 13);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "lux / footcandles";
             // 
-            // label3
+            // label12
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Luminous Flux :";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 209);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(97, 13);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "Maint. Illumination :";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
-            // label4
+            // luminMaintained
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(191, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "lumens";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.luminMaintained.Enabled = false;
+            this.luminMaintained.Location = new System.Drawing.Point(109, 206);
+            this.luminMaintained.Name = "luminMaintained";
+            this.luminMaintained.Size = new System.Drawing.Size(76, 20);
+            this.luminMaintained.TabIndex = 14;
             // 
-            // illumArea
+            // label10
             // 
-            this.illumArea.Location = new System.Drawing.Point(109, 40);
-            this.illumArea.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.illumArea.Name = "illumArea";
-            this.illumArea.Size = new System.Drawing.Size(76, 20);
-            this.illumArea.TabIndex = 4;
-            this.illumArea.ValueChanged += new System.EventHandler(this.illumArea_ValueChanged);
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(196, 183);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(86, 13);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "lux / footcandles";
             // 
-            // label6
+            // label9
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 42);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Area :";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(9, 183);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(92, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "Initial Illumination :";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
-            // label5
+            // illumInitial
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(191, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "m^2 / ft^2";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.illumInitial.Enabled = false;
+            this.illumInitial.Location = new System.Drawing.Point(109, 180);
+            this.illumInitial.Name = "illumInitial";
+            this.illumInitial.Size = new System.Drawing.Size(76, 20);
+            this.illumInitial.TabIndex = 11;
             // 
-            // illumCU
+            // label7
             // 
-            this.illumCU.DecimalPlaces = 1;
-            this.illumCU.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.illumCU.Location = new System.Drawing.Point(109, 66);
-            this.illumCU.Maximum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.illumCU.Name = "illumCU";
-            this.illumCU.Size = new System.Drawing.Size(76, 20);
-            this.illumCU.TabIndex = 7;
-            this.illumCU.ValueChanged += new System.EventHandler(this.illumCU_ValueChanged);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(9, 68);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(101, 13);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Coeff. of Utilization :";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(9, 94);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Maint. Factor :";
             // 
             // illumMF
             // 
@@ -847,79 +802,116 @@
             this.illumMF.TabIndex = 9;
             this.illumMF.ValueChanged += new System.EventHandler(this.illumMF_ValueChanged);
             // 
-            // label7
+            // label8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 94);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Maint. Factor :";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(9, 68);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(101, 13);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Coeff. of Utilization :";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // illumInitial
+            // illumCU
             // 
-            this.illumInitial.Enabled = false;
-            this.illumInitial.Location = new System.Drawing.Point(109, 180);
-            this.illumInitial.Name = "illumInitial";
-            this.illumInitial.Size = new System.Drawing.Size(76, 20);
-            this.illumInitial.TabIndex = 11;
+            this.illumCU.DecimalPlaces = 1;
+            this.illumCU.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
+            this.illumCU.Location = new System.Drawing.Point(109, 66);
+            this.illumCU.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.illumCU.Name = "illumCU";
+            this.illumCU.Size = new System.Drawing.Size(76, 20);
+            this.illumCU.TabIndex = 7;
+            this.illumCU.ValueChanged += new System.EventHandler(this.illumCU_ValueChanged);
             // 
-            // label9
+            // label5
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(9, 183);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(92, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Initial Illumination :";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(191, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "m^2 / ft^2";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label10
+            // label6
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(196, 183);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(86, 13);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "lux / footcandles";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(9, 42);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Area :";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox1
+            // illumArea
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(109, 206);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 20);
-            this.textBox1.TabIndex = 14;
+            this.illumArea.Location = new System.Drawing.Point(109, 40);
+            this.illumArea.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.illumArea.Name = "illumArea";
+            this.illumArea.Size = new System.Drawing.Size(76, 20);
+            this.illumArea.TabIndex = 4;
+            this.illumArea.ValueChanged += new System.EventHandler(this.illumArea_ValueChanged);
             // 
-            // label12
+            // label4
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 209);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(97, 13);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Maint. Illumination :";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(191, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "lumens";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label11
+            // label3
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(196, 209);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 13);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "lux / footcandles";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Luminous Flux :";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // tabPageIllum
+            // illumLumens
             // 
-            this.tabPageIllum.Controls.Add(this.illumPanel);
-            this.tabPageIllum.Location = new System.Drawing.Point(4, 22);
-            this.tabPageIllum.Name = "tabPageIllum";
-            this.tabPageIllum.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageIllum.Size = new System.Drawing.Size(338, 317);
-            this.tabPageIllum.TabIndex = 0;
-            this.tabPageIllum.Text = "Illumination";
-            this.tabPageIllum.UseVisualStyleBackColor = true;
+            this.illumLumens.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.illumLumens.Location = new System.Drawing.Point(109, 14);
+            this.illumLumens.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.illumLumens.Name = "illumLumens";
+            this.illumLumens.Size = new System.Drawing.Size(76, 20);
+            this.illumLumens.TabIndex = 1;
+            this.illumLumens.ValueChanged += new System.EventHandler(this.illumLumens_ValueChanged);
+            // 
+            // tabPageLumin
+            // 
+            this.tabPageLumin.Controls.Add(this.luminPanel);
+            this.tabPageLumin.Location = new System.Drawing.Point(4, 22);
+            this.tabPageLumin.Name = "tabPageLumin";
+            this.tabPageLumin.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageLumin.Size = new System.Drawing.Size(338, 317);
+            this.tabPageLumin.TabIndex = 1;
+            this.tabPageLumin.Text = "Luminance";
+            this.tabPageLumin.UseVisualStyleBackColor = true;
             // 
             // tabPage2D
             // 
@@ -940,6 +932,14 @@
             this.tabPage3D.TabIndex = 3;
             this.tabPage3D.Text = "3D point-by-point";
             this.tabPage3D.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Location = new System.Drawing.Point(4, 39);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(338, 10);
+            this.panel2.TabIndex = 24;
             // 
             // Form2
             // 
@@ -962,25 +962,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.luminLumens)).EndInit();
             this.twodPanel.ResumeLayout(false);
             this.twodPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.twodWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.twodAngle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.twodLength)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.twodLumens)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.threedWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.threedHeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.threedLength)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.threedLumens)).EndInit();
             this.tabControl1.ResumeLayout(false);
-            this.tabPageLumin.ResumeLayout(false);
+            this.tabPageIllum.ResumeLayout(false);
             this.illumPanel.ResumeLayout(false);
             this.illumPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.illumLumens)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.illumArea)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.illumCU)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.illumMF)).EndInit();
-            this.tabPageIllum.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.illumCU)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.illumArea)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.illumLumens)).EndInit();
+            this.tabPageLumin.ResumeLayout(false);
             this.tabPage2D.ResumeLayout(false);
             this.tabPage3D.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -996,7 +996,7 @@
         private System.Windows.Forms.Panel luminPanel;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox luminOutput;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.NumericUpDown luminTF;
@@ -1008,34 +1008,34 @@
         private System.Windows.Forms.NumericUpDown luminLumens;
         private System.Windows.Forms.NumericUpDown luminLamps;
         private System.Windows.Forms.Panel twodPanel;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown twodAngle;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox twodOutput;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown twodLength;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.NumericUpDown twodLumens;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown twodWidth;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown threedWidth;
+        private System.Windows.Forms.NumericUpDown threedHeight;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox threedOutput;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown threedLength;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.NumericUpDown threedLumens;
@@ -1048,7 +1048,7 @@
         private System.Windows.Forms.Panel illumPanel;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox luminMaintained;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox illumInitial;
