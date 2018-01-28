@@ -44,11 +44,11 @@ namespace calc
         private double IlluminationMetric()
         {
             double result = 0;
+            double illumination = 0;
+            illumination = _lumens * _cu;
+            illumination = illumination / _area;
 
-
-
-
-            return result;
+            return result = illumination;
 
         }
 
