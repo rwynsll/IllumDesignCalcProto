@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{31EF02F3-7FEC-4F85-B461-92D1E6B7A811}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>calc</RootNamespace>
-    <AssemblyName>calc</AssemblyName>
+    <RootNamespace>illuminationDesignCalculator</RootNamespace>
+    <AssemblyName>illuminationDesignCalculator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -101,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="calc_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">

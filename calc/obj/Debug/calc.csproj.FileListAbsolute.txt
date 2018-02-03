@@ -8,17 +8,3 @@ C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.csproj.GenerateResource
 C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.csproj.CoreCompileInputs.cache
 C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.exe
 C:\Users\zEROSeven\source\repos\calc\calc\obj\Debug\calc.pdb
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\bin\Debug\calc.exe.config
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.exe
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.pdb
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\bin\Debug\calc.exe
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\bin\Debug\calc.pdb
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.csprojResolveAssemblyReference.cache
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.Form1.resources
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.Properties.Resources.resources
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.csproj.GenerateResource.Cache
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.Form2.resources
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\bin\Debug\calc.exe.manifest
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\bin\Debug\calc.application
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.exe.manifest
-C:\Users\RwynSll\Documents\GitHub\IllumDesignCalcProto\calc\obj\Debug\calc.application
