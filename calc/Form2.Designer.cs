@@ -30,6 +30,10 @@
         {
             System.Windows.Forms.TabPage tabPageLuminaires;
             this.panel3 = new System.Windows.Forms.Panel();
+            this.luminairesLumens = new System.Windows.Forms.NumericUpDown();
+            this.label57 = new System.Windows.Forms.Label();
+            this.luminairesLamp = new System.Windows.Forms.NumericUpDown();
+            this.label56 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.luminairesMF = new System.Windows.Forms.NumericUpDown();
@@ -115,13 +119,12 @@
             this.tabPage2D = new System.Windows.Forms.TabPage();
             this.tabPage3D = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.luminairesLamp = new System.Windows.Forms.NumericUpDown();
-            this.label56 = new System.Windows.Forms.Label();
-            this.luminairesLumens = new System.Windows.Forms.NumericUpDown();
-            this.label57 = new System.Windows.Forms.Label();
+            this.btnCalculate = new System.Windows.Forms.Button();
             tabPageLuminaires = new System.Windows.Forms.TabPage();
             tabPageLuminaires.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.luminairesLumens)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luminairesLamp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminairesMF)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminairesCU)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminairesArea)).BeginInit();
@@ -151,8 +154,6 @@
             this.tabPageLumin.SuspendLayout();
             this.tabPage2D.SuspendLayout();
             this.tabPage3D.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.luminairesLamp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luminairesLumens)).BeginInit();
             this.SuspendLayout();
             // 
             // tabPageLuminaires
@@ -190,6 +191,50 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(286, 292);
             this.panel3.TabIndex = 23;
+            // 
+            // luminairesLumens
+            // 
+            this.luminairesLumens.Location = new System.Drawing.Point(106, 144);
+            this.luminairesLumens.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.luminairesLumens.Name = "luminairesLumens";
+            this.luminairesLumens.Size = new System.Drawing.Size(76, 20);
+            this.luminairesLumens.TabIndex = 25;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(6, 146);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(79, 13);
+            this.label57.TabIndex = 24;
+            this.label57.Text = "Lamp Lumens :";
+            // 
+            // luminairesLamp
+            // 
+            this.luminairesLamp.Location = new System.Drawing.Point(106, 118);
+            this.luminairesLamp.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.luminairesLamp.Name = "luminairesLamp";
+            this.luminairesLamp.Size = new System.Drawing.Size(76, 20);
+            this.luminairesLamp.TabIndex = 23;
+            this.luminairesLamp.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(6, 120);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(91, 13);
+            this.label56.TabIndex = 22;
+            this.label56.Text = "Lamp per Fixture :";
+            this.label56.Click += new System.EventHandler(this.label56_Click);
             // 
             // label2
             // 
@@ -1140,55 +1185,23 @@
             this.panel2.Size = new System.Drawing.Size(338, 10);
             this.panel2.TabIndex = 24;
             // 
-            // luminairesLamp
+            // btnCalculate
             // 
-            this.luminairesLamp.Location = new System.Drawing.Point(106, 118);
-            this.luminairesLamp.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.luminairesLamp.Name = "luminairesLamp";
-            this.luminairesLamp.Size = new System.Drawing.Size(76, 20);
-            this.luminairesLamp.TabIndex = 23;
-            this.luminairesLamp.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(6, 120);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(91, 13);
-            this.label56.TabIndex = 22;
-            this.label56.Text = "Lamp per Fixture :";
-            this.label56.Click += new System.EventHandler(this.label56_Click);
-            // 
-            // luminairesLumens
-            // 
-            this.luminairesLumens.Location = new System.Drawing.Point(106, 144);
-            this.luminairesLumens.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.luminairesLumens.Name = "luminairesLumens";
-            this.luminairesLumens.Size = new System.Drawing.Size(76, 20);
-            this.luminairesLumens.TabIndex = 25;
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(6, 146);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(79, 13);
-            this.label57.TabIndex = 24;
-            this.label57.Text = "Lamp Lumens :";
+            this.btnCalculate.Location = new System.Drawing.Point(55, 406);
+            this.btnCalculate.Name = "btnCalculate";
+            this.btnCalculate.Size = new System.Drawing.Size(222, 23);
+            this.btnCalculate.TabIndex = 25;
+            this.btnCalculate.Text = "Calculate";
+            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Visible = false;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 399);
+            this.ClientSize = new System.Drawing.Size(350, 441);
+            this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
@@ -1200,6 +1213,8 @@
             tabPageLuminaires.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.luminairesLumens)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.luminairesLamp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminairesMF)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminairesCU)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.luminairesArea)).EndInit();
@@ -1233,8 +1248,6 @@
             this.tabPageLumin.ResumeLayout(false);
             this.tabPage2D.ResumeLayout(false);
             this.tabPage3D.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.luminairesLamp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.luminairesLumens)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1332,5 +1345,6 @@
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.NumericUpDown luminairesLumens;
         private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Button btnCalculate;
     }
 }

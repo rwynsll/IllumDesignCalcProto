@@ -106,5 +106,40 @@ namespace calc
         {
 
         }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            //comute area
+            if (rdbUnitEnglish.Checked)
+            {
+                computeAreaES();
+            }
+            else
+            {
+                computeAreaMS();
+            }
+        }
+
+
+        private void computeAreaES()
+        {
+            var length = illumLumens.Value;
+            var width = illumArea.Value;
+
+            var area = length * width;
+
+            illumInitial.Text = area.ToString();
+            luminMaintained.Text = 65656.ToString();
+        }
+        private void computeAreaMS()
+        {
+            var length = illumLumens.Value;
+            var width = illumArea.Value;
+
+            var area = length * width * width;
+
+            illumInitial.Text = area.ToString();
+            luminMaintained.Text = 65656.ToString();
+        }
     }
 }
